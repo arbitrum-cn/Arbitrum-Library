@@ -1,0 +1,20 @@
+{
+  "name": "greeter",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "greeter": "hardhat run scripts/exec.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.1.2",
+    "hardhat": "^2.2.0"
+  },
+  "dependencies": {
+    "arb-bridge-eth": "^0.7.5",
+    "@arbitrum/sdk": "^2.0.0",
+    "arbos-precompiles": "^1.0.2",
+    "dotenv": "^8.2.0"
+  }
+}
