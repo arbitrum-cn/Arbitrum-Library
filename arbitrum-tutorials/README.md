@@ -1,18 +1,20 @@
 # Arbitrum Tutorials
 
-This monorepo will help you get started with building on Arbitrum. It provides various simple demos showing and explaining how to interact with Arbitrum — deploying and using contracts directly on L2, moving Ether and tokens betweens L1 and L2, and more.
 
-We show how you can use broadly supported Ethereum ecosystem tooling (Hardhat, Ethers-js, etc.) as well as our special [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) for convenience.
+
+这个 monorepo 将帮助您开始在 Arbitrum 上进行构建。它提供了各种简单的演示来展示和解释如何与 Arbitrum 交互——直接在 L2 上部署和使用合约，在 L1 和 L2 之间转移 Ether 和代币等等。
+
+为了方便起见，我们展示了如何使用广泛支持的以太坊生态系统工具（Hardhat、Ethers-js 等）以及我们特殊的 [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk)。
 
 ## Installation
 
-From root directory:
+从 root 目录:
 
 ```bash
 yarn install
 ```
 
-## What's included?
+## 包含了哪些信息?
 
 #### :white_check_mark: Basics
 
