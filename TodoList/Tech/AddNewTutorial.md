@@ -1,1 +1,2 @@
 # Arbitrum Tutorial新Idea贡献
+如果你对Arbitrum的tutorial有一些新的想法想要实现，或者是你在开发的过程中踩过一些坑，也欢迎提交PR，来创建一个新的Tutorial。
