@@ -1,30 +1,30 @@
 # token-deposit Tutorial
 
-`token-deposit` demonstrates moving a token from Ethereum (Layer 1) into the Arbitrum (Layer 2) chain using the Standard Token Gateway in Arbitrum's token bridging system.
+`token-deposit` 演示了代币如何从以太坊（第 1 层）移动到 Arbitrum（第 2 层）链，该方法使用的是标准Token网关方法，该方法使用于标准逻辑实现的ERC20代币。
 
-For info on how it works under the hood, see our [token bridging docs](https://developer.offchainlabs.com/docs/bridging_assets).
+有关它如何在后台工作的信息，请参阅我们的 [token bridging docs](https://developer.offchainlabs.com/docs/bridging_assets)。
+#### **标准ERC20 Deposit**
 
-#### **Standard ERC20 Deposit**
+我们将通过我们的 Arbitrum 代币桥以将 ERC20 代币存入 Arbitrum 链。
 
-Depositing an ERC20 token into the Arbitrum chain is done via our the Arbitrum token bridge.
+在这里，我们部署一个 [demo token](./contracts/DappToken.sol) 并触发存款；默认情况下，存款将通过标准 ERC20 网关路由，在初始存款时，标准 arb ERC20 合约将自动部署到 L2。
 
-Here, we deploy a [demo token](./contracts/DappToken.sol) and trigger a deposit; by default, the deposit will be routed through the standard ERC20 gateway, where on initial deposit, a standard arb erc20 contract will automatically be deployed to L2.
 
-We use our [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) library to initiate and verify the deposit.
+我们使用 [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) 库来启动和验证存款。
 
-See [./exec.js](./scripts/exec.js) for inline explanation.
+可以查看 [./exec.js](./scripts/exec.js) 里的注释以了解更多。
 
-### Config Environment Variables
+### 配置环境变量
 
-Set the values shown in `.env-sample` as environmental variables. To copy it into a `.env` file:
+在 `.env-sample` 中设置参数. 并将其复制为 `.env` 文件:
 
 ```bash
 cp .env-sample .env
 ```
 
-(you'll still need to edit some variables, i.e., `DEVNET_PRIVKEY`)
+(你仍然需要设置一些参数, 比如 `DEVNET_PRIVKEY`)
 
-### Run:
+### 运行Demo:
 
 ```
 yarn run token-deposit

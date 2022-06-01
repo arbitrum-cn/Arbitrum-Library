@@ -1,34 +1,33 @@
 # token-withdraw Tutorial
 
-`token-withdraw` shows how to move ERC20 tokens from Arbitrum (Layer 2) into Ethereum (Layer 1).
+`token-withdraw` 展示了如何将 ERC20 代币从 Arbitrum（第 2 层）转移到以太坊（第 1 层）。
 
-Note that this repo covers initiating a token withdrawal; for a demo on (later) releasing the funds from the Outbox, see [outbox-execute](../outbox-execute/README.md)
+请注意，此 repo 涵盖了启动令牌提取；有关（稍后）从发件箱释放资金的演示，请参阅 [outbox-execute](../outbox-execute/README.md)
+### 它是如何工作的？
 
-## How it works (Under the hood)
-
-To withdraw a token from Arbitrum, a message is send from a Gateway contract which burns the token on L2, and sends a message to L1, which allow the token to be released from escrow once the dispute period is expired. For more info, see [Outgoing messages documentation](https://developer.offchainlabs.com/docs/l1_l2_messages#l2-to-l1-messages-lifecycle).
+要从 Arbitrum 提取代币，网关合约会发送一条消息，该合约会在 L2 上烧掉代币，并向 L1 发送一条消息，一旦争议期结束，该代币就可以从托管中释放。有关详细信息，请参阅 [传出消息文档](https://developer.offchainlabs.com/docs/l1_l2_messages#l2-to-l1-messages-lifecycle)。
 
 ---
 
 #### **Standard ERC20 Withdrawal**
 
-In this demo, we deploy a fresh token and then deposit some to L2. Then, we use these new tokens to trigger a withdrawal back to L1.
+在这个Demo中，我们部署了一个新的代币，然后将一些该代币存入 L2。然后，我们使用这些新代币触发提款到 L1。
 
-We use our [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) library for the token bridge interactions.
+我们使用 [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) 库进行token桥交互。
 
 See [./exec.js](./scripts/exec.js) for inline explanation.
 
-## Config Environment Variables
+### 配置环境变量
 
-Set the values shown in `.env-sample` as environmental variables. To copy it into a `.env` file:
+在 `.env-sample` 中设置参数. 并将其复制为 `.env` 文件:
 
 ```bash
 cp .env-sample .env
 ```
 
-(you'll still need to edit some variables, i.e., `DEVNET_PRIVKEY`)
+(你仍然需要设置一些参数, 比如 `DEVNET_PRIVKEY`)
 
-### Run
+### 运行Demo
 
 ```
 yarn withdraw-token

@@ -9,7 +9,7 @@
 
 可以查看 [./exec.js](./scripts/exec.js) 里的注释以了解更多.
 
-[点击这里](https://developer.offchainlabs.com/docs/l1_l2_messages)以获取可重试票据的更多相关信息。
+点击[这里](https://developer.offchainlabs.com/docs/l1_l2_messages)以获取可重试票据的更多相关信息。
 
 ### 运行Demo:
 
@@ -17,12 +17,17 @@
 yarn run greeter
 ```
 
-可以查看 [./exec.js](./scripts/exec.js) 里的注释以了解更多.
+可以查看 [./exec.js](./scripts/exec.js) 里的注释以了解更多。
+
+### 配置环境变量
+
+在 `.env-sample` 中设置参数. 并将其复制为 `.env` 文件:
 
 ```bash
 cp .env-sample .env
 ```
 
-(you'll still need to edit some variables, i.e., `DEVNET_PRIVKEY`)
+(你仍然需要设置一些参数, 比如 `DEVNET_PRIVKEY`)
+
 
 <p align="center"><img src="../../assets/offchain_labs_logo.png" width="600"></p>

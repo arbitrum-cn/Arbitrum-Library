@@ -1,43 +1,44 @@
 # eth-withdraw Tutorial
 
-`eth-withdraw` shows how to move Ether from Arbitrum (Layer 2) into the Ethereum (Layer 1) chain.
 
-Note that this repo covers initiating and Ether withdrawal; for a demo on (later) releasing the funds from the Outbox, see [outbox-execute](../outbox-execute/README.md)
 
-## How it works (Under the hood)
+`eth-withdraw` 展示了如何将Ether从 Arbitrum（第 2 层）转移到以太坊（第 1 层）链中。
 
-To withdraw Ether from Arbitrum, a client creates an outgoing / L2 to L1 message using the `ArbSys` interface that later lets them release Ether from its escrow in the L1 Bridge.sol contract. For more info, see [Outgoing messages documentation](https://developer.offchainlabs.com/docs/l1_l2_messages#l2-to-l1-messages-lifecycle).
+请注意，此 repo 涵盖了初始化交易和 Ether withdraw；有关（稍后）从Outbox合约释放资金的演示，请参阅 [outbox-execute](../outbox-execute/README.md)
 
----
+### 它是如何工作的（底层）
 
-_Note: Executing scripts will require your L2 account be funded with .000001 Eth._
+为了从 Arbitrum 提取 Ether，客户端使用“ArbSys”接口创建 `L2->L1` 消息，并在稍后允许他们从 L1 Bridge.sol 合约中的中释放 Ether。有关详细信息，请参阅 [Outgoing messages文档](https://developer.offchainlabs.com/docs/l1_l2_messages#l2-to-l1-messages-lifecycle)。
 
-### **Using Arbitrum SDK tooling**
 
-Our [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) provides a simply convenience method for withdrawing Ether, abstracting away the need for the client to connect to any contracts manually.
+_注意: 执行脚本将需要您的 L2 帐户资金中至少有0.000001 Eth._
 
-See [./exec.js](./scripts/exec.js) for inline explanation.
+### **使用Arbitrum SDK工具集**
 
-To run:
+我们的 [Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk) 提供了一种提取 Ether 的简单方法，使得客户端不需要手动连接任何合约。
+
+可以查看 [./exec.js](./scripts/exec.js) 里的注释以了解更多。
+
+### 运行Demo
 
 ```
 yarn run withdrawETH
 ```
 
-## Config Environment Variables
+### 配置环境变量
 
-Set the values shown in `.env-sample` as environmental variables. To copy it into a `.env` file:
+在 `.env-sample` 中设置参数. 并将其复制为 `.env` 文件:
 
 ```bash
 cp .env-sample .env
 ```
 
-(you'll still need to edit some variables, i.e., `DEVNET_PRIVKEY`)
+(你仍然需要设置一些参数, 比如 `DEVNET_PRIVKEY`)
 
 ---
 
-## Curious to see the output on the Arbitrum chain?
+### 想要查看在Arbitrum链上的输出?
 
-Once the script is successfully executed, you can go to the [Arbitrum block explorer](https://rinkeby-explorer.arbitrum.io/#), enter your address and see the amount of ETH has been deducted from your Layer 2 balance. Note that your Layer 1 balance will only be updated after rollup's confirmation period is over.
 
+脚本成功执行后，您可以前往 [Arbitrum 区块浏览器](https://rinkeby-explorer.arbitrum.io/#)，输入您的地址，查看您的 Layer 2 余额中扣除的 ETH 数量.请注意，您的第 1 层余额只会在rollups的争议期结束后更新。
 <p align="center"><img src="../../assets/offchain_labs_logo.png" width="600"></p>
