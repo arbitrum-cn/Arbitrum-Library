@@ -16,13 +16,13 @@
 </p>
 5.验证邮箱账户完成，自动生成RPC节点，点击快速节点（管理你自己的节点），点击arbitrum网络。
 <p align="center">
-  <img width="680" height="370" src= "../img/moralis/moralis_5.png" />
+  <img width="680" height="360" src= "../img/moralis/moralis_5.png" />
 </p>
 6.看到自己的RPC(HTTP地址)，官方提醒手动添加到钱包（由于metamask发生错误，自动添加失效）
 
 注意事项：鼠标选中链接，右键复制，不要点击最右边的复制图标。
 <p align="center">
-  <img width="600" height="400" src= "../img/moralis/moralis_6.png" />
+  <img width="590" height="400" src= "../img/moralis/moralis_6.png" />
 </p>
 7.专业计划40美元/月，服务器永不停机，增加RPC速率性能等等...
 <p align="center">

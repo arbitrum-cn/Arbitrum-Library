@@ -2,7 +2,7 @@
 1.进入（快速节点）注册账号，邮箱点击验证账户，此网站支持免费七天试用，无免费版。
 点击[quicknode官网](https://www.quicknode.com/)。
 <p align="center">
-  <img width="800" height="440" src= "../img/quicknode/quicknode_1.png" />
+  <img width="800" height="460" src= "../img/quicknode/quicknode_1.png" />
 </p>
 2.邮箱验证成功，自动跳转此页面，点击创建你的RPC节点。
 <p align="center">
