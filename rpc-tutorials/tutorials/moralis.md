@@ -22,7 +22,7 @@
 
 注意事项：鼠标选中链接，右键复制，不要点击最右边的复制图标。
 <p align="center">
-  <img width="590" height="400" src= "../img/moralis/moralis_6.png" />
+  <img width="570" height="400" src= "../img/moralis/moralis_6.png" />
 </p>
 7.专业计划40美元/月，服务器永不停机，增加RPC速率性能等等...
 <p align="center">

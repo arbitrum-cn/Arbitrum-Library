@@ -23,5 +23,5 @@
 </p>
 付费版本简介，如果需要更大的宽带，与更丝滑的体验，50美金一月。
 <p align="center">
-  <img width="780" height="420" src= "../img/datahub/datahub_5.png" />
+  <img width="780" height="400" src= "../img/datahub/datahub_5.png" />
 </p>
