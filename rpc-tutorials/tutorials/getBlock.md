@@ -18,7 +18,7 @@
 
 专用节点建造，需要专用服务器，才能独享高性高速度，日常交互不必考虑。
 <p align="center">
-  <img width="600" height="380" src= "../img/getBlock/getblock_5.png" />
+  <img width="570" height="380" src= "../img/getBlock/getblock_5.png" />
 </p>
 点击复制RPC
 进入小狐狸钱包，点击设置--网络--Arbitrum主网--粘贴RPC链接，点击保存，即可成功创建你的arbitrum-RPC。亲测可用。
