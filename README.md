@@ -16,23 +16,13 @@
 
 
 
-# Arbitrum Tutorial
+# Tutorial
 该教程主要面向新使用Arbitrum的开发者制作
-
-- [address table](./arbitrum-tutorials/packages/address-table/) 
-- [custom-token-bridging](./arbitrum-tutorials/packages/custom-token-bridging/)
-- [demo-dapp-election](./arbitrum-tutorials/packages/demo-dapp-election/)
-- [demo-dapp-pet-shop](./arbitrum-tutorials/packages/demo-dapp-pet-shop/)
-- [eth-deposit](./arbitrum-tutorials/packages/eth-deposit/)
-- [eth-withdraw](./arbitrum-tutorials/packages/eth-withdraw/)
-- [greeter](./arbitrum-tutorials/packages/greeter/)
-- [outbox-execute](./arbitrum-tutorials/packages/outbox-execute/)
-- [redeem-failed-retryable](./arbitrum-tutorials/packages/redeem-failed-retryable/)
-- [token-deposit](./arbitrum-tutorials/packages/token-deposit/)
-- [token-withdraw](./arbitrum-tutorials/packages/token-withdraw/)
+- [Arbitrum开发者教程](arbitrum-tutorials/README.md)
+- [第三方rpc设置教程](rpc-tutorials/README.md)
 
 # Arbitrum Alpha
-Arbitrum Alpha由 Hunter (@BFreshHB) 整理撰写，是他作为一名资深crypto的爱好者在Arbitrum上建设的项目中很酷的更新的一个总结。
+Arbitrum Alpha由 Hunter (twitter@BFreshHB) 整理撰写，是他作为一名资深crypto的爱好者在Arbitrum上建设的项目中很酷的更新的一个总结。
 - [Arbitrum alpha6](https://mirror.xyz/0x5489342452132548160F089F95e5433A918a3395/s5ilEYjTwsaWXYVq59LqEelH316RHu0GC00S8Hc3dU0)
   
 # Arbitrum Coummunity Todo List
@@ -41,4 +31,3 @@ Arbitrum Alpha由 Hunter (@BFreshHB) 整理撰写，是他作为一名资深cryp
 <p align="center">
   <img width="350" height="100" src= "https://arbitrum.io/wp-content/uploads/2021/01/cropped-Arbitrum_Horizontal-Logo-Full-color-White-background-scaled-1.jpg" />
 </p>
-

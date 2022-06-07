@@ -16,24 +16,24 @@ yarn install
 
 ## 包含了哪些信息?
 
-#### :white_check_mark: Basics
+#### :white_check_mark: 基础使用
 
 - 🐹 [Pet Shop DApp](./packages/demo-dapp-pet-shop/) (L2 only)
 - 🗳 [Election DApp](./packages/demo-dapp-election/) (L2 only)
 
-#### :white_check_mark: Moving Stuff around
+#### :white_check_mark: 资产转移
 
 - ⤴️ 🔹 [Deposit Ether](./packages/eth-deposit/)
 - ⤵️ 🔹 [Withdraw Ether](./packages/eth-withdraw/)
 - ⤴️ 💸 [Deposit Token](./packages/token-deposit/)
 - ⤵️ 💸 [Withdraw token](./packages/token-withdraw/)
 
-#### :white_check_mark: General Interop
+#### :white_check_mark: 基本操作
 
 - 🤝 [Greeter](./packages/greeter/) (L1 to L2)
 - 📤 [Outbox](./packages/outbox-execute/) (L2 to L1)
 
-#### :white_check_mark: Advanced Features
+#### :white_check_mark: 高级特性
 
 - ®️ [Arb Address Table](./packages/address-table/)
 - 🌉 [Bridging Custom Token](./packages/custom-token-bridging/)
