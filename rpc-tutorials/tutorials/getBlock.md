@@ -4,7 +4,7 @@
 </p>
 注册登录:
 <p align="center">
-  <img width="680" height="380" src= "../img/getBlock/getblock_2.png" />
+  <img width="630" height="380" src= "../img/getBlock/getblock_2.png" />
 </p>
 点击生产，点击生成终点:
 <p align="center">
