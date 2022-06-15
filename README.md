@@ -12,9 +12,7 @@
 - [layer2:以太坊扩容方案](https://b23.tv/Vjn521b)
 
 # Arbitrum中文技术社区
-欢迎添加@Ethereum_wan 微信加入
-
-
+欢迎添加@Arbitrum_assistant 微信加入
 
 # Tutorial
 该教程主要面向新使用Arbitrum的开发者制作
