@@ -113,3 +113,5 @@ Nina：好的，大家要善用我们第三方的免费rpc，当然这个rpc的�
 答：目前开通的有ETH、BSC、Fantom、polygon、AVAX，以上这些链都支持将ETH跨入Arbitrum。
 
 Nina：谢谢各位嘉宾抽出宝贵的时间，来参与我们的AMA。大家也不要忘了每周二晚上8点，我们都会聚在这里，大家一起聊一聊layer2以及Arbitrum的生态技术，谢谢大家的参与。下周见！
+
+(感谢猴哥@SilenTGoKu的记录！)
