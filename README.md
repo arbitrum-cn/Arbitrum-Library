@@ -3,13 +3,22 @@
 
 英文Twitter：@arbitrum \
 中文Twitter：@arbitrum_cn
+
+
+
 # Arbitrum分享
 
+## 社区AMA
+
+- [第一次AMA：奥德赛预热]()
+
+## 技术分享
 - [Arbitrum中的可重试票据p1](https://www.youtube.com/watch?v=sYo8DXvysJI)
 
 - [Arbitrum中的可重试票据p2](https://www.youtube.com/watch?v=l_wt3L2k4dc)
 
 - [layer2:以太坊扩容方案](https://b23.tv/Vjn521b)
+  
 
 # Arbitrum中文技术社区
 欢迎添加@Arbitrum_assistant 微信加入
