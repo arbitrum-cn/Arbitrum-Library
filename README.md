@@ -10,7 +10,7 @@
 
 ### 社区AMA
 
-- [第一次AMA：奥德赛预热]()
+- [第一次AMA：奥德赛预热](Share/AMA/OdysseyPreheating.md)
 
 ### 技术分享
 - [Arbitrum中的可重试票据p1](https://www.youtube.com/watch?v=sYo8DXvysJI)
