@@ -8,11 +8,11 @@
 
 # Arbitrum分享
 
-## 社区AMA
+### 社区AMA
 
 - [第一次AMA：奥德赛预热]()
 
-## 技术分享
+### 技术分享
 - [Arbitrum中的可重试票据p1](https://www.youtube.com/watch?v=sYo8DXvysJI)
 
 - [Arbitrum中的可重试票据p2](https://www.youtube.com/watch?v=l_wt3L2k4dc)
