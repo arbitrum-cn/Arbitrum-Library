@@ -85,3 +85,7 @@ A6SxCsYeeeoeFQ33C43aUzkZKP0UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoeB0AAAAAAAAA
 {"jsonrpc":"2.0","id":1,"result":{"blockHash":"0x429f9272a4e3cd4bc9fbaadebf4001fcff00a094e1a6d56b64e12134efa2d8ae","blockNumber":"0x11f6f3c","from":"0x3abce4e29d700a3915209fdc46c81ffead2f3d5c","gas":"0x9cd4a","gasPrice":"0xf35da01","hash":"0x50e6abe5e160358a71445457382b7b23b90c4199845396fda627c59f2f598732","input":"0x38c74dd90000000000000000000000003d6ba331e3d9702c5e8a8d254e5d8a285f223aba","nonce":"0xf","to":"0xabbc5f99639c9b6bcb58544ddf04efa6802f4064","transactionIndex":"0x0","value":"0x0","v":"0x14986","r":"0xdd64189e2fa805ae6e94dc948f9dfc2992a711239c8cccb1dfe842ccf44a550a","s":"0x4c3e34b25f70986d2693244fef49f3c1ae9242df9c4377a55fda14041cb6128e","l1SequenceNumber":"0x2567e15","parentRequestId":"0x4f2c69785ac02ebe59d6804bbfd1752ca2e5e8161e80edf39e5e5a33a2e87d08","indexInParent":"0x0","arbType":"0x3","arbSubType":"0x4","l1BlockNumber":"0xe8781d"}}
 ```
 如上，我们将交易对应回去，发现信息全部吻合，因此，我们的sequencer交易解码成功。
+
+## 查看交易在l1中的信息
+
+得到交易后，前往arbiscan可查看更多信息，我们找到[Submission Tx Hash](https://etherscan.io/tx/0x1f39f0f26d6f4823dfc6860fb53a8a7e80703c41dd69577b4be97c085b681037)，在该界面中，我们可以在`input data`中找到刚刚获得的sequencer消息（不包含sender，可使用data信息辅助查找）。
