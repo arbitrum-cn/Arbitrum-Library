@@ -121,6 +121,6 @@ function addSequencerL2Batch(
         );
     }
 ```
-
+关于如何调用以及获得相应参数，欢迎查看[Arbitrum SDK](https://github.com/OffchainLabs/arbitrum-sdk/blob/c-nitro-migration/src/lib/inbox/inbox.ts#L102)
 
 注意，虽然在以上合约中有处理消息信息，但消息本身没有被写入状态，仅仅只是通过calldata记录。
