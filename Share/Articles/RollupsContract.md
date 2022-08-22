@@ -1,5 +1,9 @@
 # rollup合约
 ## 什么是Rollups合约
+Rollups合约管理了l2上的状态，与inbox合约不同（inbox存放交易摘要），rollups合约会存放validators对于l2状态的断言质押，并允许其他人对该断言进行挑战。由于rollups合约管理了l2的状态，因此也包含了l2->l1消息状态的管理，因此在状态段演的挑战期结束后，我们便可认同该状态，同时释放用户资金。
+
+validator是rollups合约的主要参与方，其可以提出断言，可以挑战断言，也可以确认断言（断言提出的7天后）。validators在arbitrum中主要有以下三种：
+
 - Validator：
     - 主动验证者：
 通过提议新的Rollup区块来推进Rollup链的状态，由于提议Rollup区块需要质押，因此活跃的验证者需要一直提供质押，一条链只需要一个诚实的活跃验证者就可以不断推进Rolllup链的状态更新，因为它将始终会质押在正确的状态上面，当有攻击者质押错误状态的时候就会触发挑战。
@@ -26,7 +30,7 @@ Rollups系列合约主要负责对Arbitrum上的Rollups区块，L2->L1的Withdra
 - Rollup合约：
 管理rollup协议，调度用户对于rollup系列操作的调用
 
-Arbitrum Rollup合约
+## Arbitrum Rollup合约
 Rollups主要函数
 ·CreateNewNode
 创建新的rollup区块需要调用的函数。
@@ -55,3 +59,4 @@ function confirmNode(
     ) internal
 ```
 
+特别感谢社区爱好者0xCryptolee对参与此文的贡献。
