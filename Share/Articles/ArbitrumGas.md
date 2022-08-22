@@ -21,3 +21,5 @@ layer1有JSON-RPC，layer2也有JSON-RPC，gas estimate指的是每次通过JSON
 由于arbitrum中的gas花销由上诉四部分所组成，但对于开发者来说，gas_price * gas_limit 是一个已经习惯使用的方法，因此如果l2要求开发者换一种新方式进行gas计算，那么将加大开发者的开发难度。
 
 因此，arbitrum中也通过了一系列方式实现了这种方式的计算，我们取`l2 compuational gas price`（也就是`arbgas_price`）作为该算式的gas_price部分，那么gas_usage的使用方法将变为（`L1 fixed cost` + `L1 calldata cost` + `L2 computational cost` + `L2 storage cost`）/`arbgas_price`，展开可得`l2 computaional gas usage` + （`L1 fixed cost` + `L1 calldata cost` + `L2 storage cost`）/`arbgas_price`, 因此我们可以看到，随着l1 gas的变化或者`arbgas_price`的变化，最终的gas usage会出现不相同的情况，这也是为什么在奥德赛期间l2的`gas usage`和以往相似交易的开销相差较大的原因。
+
+特别感谢社区爱好者0xCryptolee对参与此文的贡献。
