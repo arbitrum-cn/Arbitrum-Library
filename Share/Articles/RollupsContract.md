@@ -43,13 +43,13 @@ Rollups主要函数
     ) returns (bytes32 newNodeHash)
 ```
 
-·CreateNewStake
+- CreateNewStake
 网络加入一个新的验证者进行质押存款需要调用的函数
 ```
 function createNewStake(address stakerAddress, uint256 depositAmount)
 ```
 
-·ConfirmNode
+- ConfirmNode
 七天挑战期结束以后，确定一个区块内交易合法需要调用的函数。
 ```
 function confirmNode(
