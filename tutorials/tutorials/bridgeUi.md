@@ -1,20 +1,21 @@
 # Arbitrum官方桥教程
 
-    本教程的预设是你已经下载了一个像MetaMask这样的web3钱包，并且在以太坊主网上的钱包里有ETH或代币。如果你还没有钱包，请访问我们的portal网站，去下载一个。
+本教程的预设是你已经下载了一个像MetaMask这样的web3钱包，并且在以太坊主网上的钱包里有ETH或代币。如果你还没有钱包，请访问我们的portal网站，去下载一个。
 
- 
-    注意：ETH是Arbitrum上的gas费结算代币。你需要用ETH在Arbitrum上进行交易！
+
+注意：ETH是Arbitrum上的gas费结算代币。你需要用ETH在Arbitrum上进行交易！
 
 
 ## 1. 添加一个网络。Arbitrum One或Arbitrum Nova 
 	
-    按照下面的步骤手动添加一个Arbitrum网络。
+按照下面的步骤手动添加一个Arbitrum网络。
 
-    点击metamask的扩展 > 点击 「Ethereum Mainnet」网络 > 点击菜单末尾的 「Add Network」(添加网络)，并输入你要连接的Arbitrum链的对应信息。
+点击metamask的扩展 > 点击 「Ethereum Mainnet」网络 > 点击菜单末尾的 「Add Network」(添加网络)，并输入你要连接的Arbitrum链的对应信息。
 <p align="center">
   <img src= "../img/bridgeUi/addNetwork.gif" />
 </p>
 ---
+
 - Network Name: Arbitrum One
 - RPC: https://arb1.arbitrum.io/rpc
 - Chain ID: 42161
@@ -77,9 +78,9 @@
 
 ## 3. 游览我们的DAPPs
 
-    Arbitrum的生态中有非常多的dapp、钱包、工具以及更多的项目！
+Arbitrum的生态中有非常多的dapp、钱包、工具以及更多的项目！
 
-    你可以在这里浏览其中大部分的项目名单：Arbitrum One Portal, Arbitrum Nova Portal
+你可以在这里浏览其中大部分的项目名单：Arbitrum One Portal, Arbitrum Nova Portal
 	 		 			
 <p align="center">
   <img src= "../img/bridgeUi/dapplist.gif" />
@@ -138,7 +139,7 @@
 4. 一旦倒计时结束，在你钱包上切换到以太坊主网网络，按一下现在已变成蓝色的「Claim」 (认领)按钮，这样可以领取你的资金了! 	
 		 		 			
 <p align="center">
-  <img src= "../img/bridgeUi/claim.png" />
+  <img src= "../img/bridgeUi/claim.png" width="280" height="120" />
 </p>	 	
 
 ## 潜在的风险
