@@ -139,7 +139,7 @@ Arbitrum的生态中有非常多的dapp、钱包、工具以及更多的项目�
 4. 一旦倒计时结束，在你钱包上切换到以太坊主网网络，按一下现在已变成蓝色的「Claim」 (认领)按钮，这样可以领取你的资金了! 	
 		 		 			
 <p align="center">
-  <img src= "../img/bridgeUi/claim.png" width="280" height="120" />
+  <img src= "../img/bridgeUi/claim.png" width="480" height="210" />
 </p>	 	
 
 ## 潜在的风险
