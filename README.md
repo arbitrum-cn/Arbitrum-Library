@@ -28,7 +28,7 @@
 ### Tutorial
 
 - [Arbitrum开发者教程](arbitrum-tutorials/README.md)
-- [第三方rpc设置教程](rpc-tutorials/README.md)
+- [第三方rpc设置教程](tutorials/README.md)
 
 
 <!-- # Arbitrum Coummunity Todo List
