@@ -9,15 +9,15 @@
 
 是的，你没有看错 - 从今天起，我们已经换下了Nova的开发者白名单。Nova是我们最新开发的链，主要用于游戏和社交应用，是我们的第一个建立在AnyTrust技术上的链。现在欢迎用户和更多的建设者们来体验并开发Nova。
 
-你在这里桥接Nova，并通过访问我们的网站了解更多关于Nova的信息。
+你在[这里](https://bridge.arbitrum.io/?l2ChainId=42170)桥接Nova，并通过访问我们的[网站](https://nova.arbitrum.io/)了解更多关于Nova的信息。
 
 <p align="center">
-  <img width="650" height="220" src= "../img/nova.png" />
+  <img width="650" height="240" src= "../img/nova.png" />
 </p>
 
-在我们最初的公告中，我们分享了我们的理念：Nova将完美适应游戏和社交项目的需求——即交易量非常大，寻求将成本降到更低，但仍然需要高安全性的项目。在过去的几周里，我们看到了生态中的很多团队对Nova表达出了足够的兴趣，作为我们公平发布过程的一部分，我们授予了100多个开发团队以访问权。
+在我们[最初的公告](https://medium.com/offchainlabs/introducing-nova-arbitrum-anytrust-mainnet-is-open-for-developers-9a54692f345e)中，我们分享了我们的理念：Nova将完美适应游戏和社交项目的需求——即交易量非常大，寻求将成本降到更低，但仍然需要高安全性的项目。在过去的几周里，我们看到了生态中的很多团队对Nova表达出了足够的兴趣，作为我们公平发布过程的一部分，我们授予了100多个开发团队以访问权。
 
-我们还非常兴奋地想要分享：今天(8月9日)，就在我们的Nova链公开发布的同时，Reddit正在向Nova部署他们的社区积分系统，从两个社区开始，你可以在这里阅读更多关于他们发展的旅程。
+我们还非常兴奋地想要分享：今天(8月9日)，就在我们的Nova链公开发布的同时，Reddit正在向Nova部署他们的社区积分系统，从两个社区开始，你可以在[这里](https://www.prnewswire.com/news-releases/offchain-labs-works-with-reddit-to-bring-community-points-to-the-ethereum-mainnet-301602509.html)阅读更多关于他们发展的旅程。
 Reddit的旅程，从烘焙比赛到部署至主网，无疑加强了我们的信念——即Arbitrum技术栈是开发者的最佳扩展解决方案，不仅仅是在以太坊主网，而是在整个区块链领域。
 
 对于Arbitrum的社区来说，这已经是，并将继续是一个重要的月份。上周，我们宣布了我们的主网迁移计划——在了8月31日，我们将Arbitrum One升级至Nitro。而今天我们又向大众开放了一条全新的链，它将成为Reddit社区积分系统的大本营，这是一个全新将社区带入链上的模式。我们还有更多关于Nova的信息想要分享，包括我们的数据可用性委员会(DAC)的成员，以及开始建设的最佳方式，但是说了这么多......
