@@ -21,7 +21,7 @@ _tl;dr — 当我们在 8 月 31 日将 Arbitrum One 迁移到 Nitro 时，节�
 **3) 给 Nitro 节点一个种子数据库，用于初始链同步。**
 
 - 对于种子数据库，有两个选项：
-    - 选项 1 - 我们将在迁移期间执行链状态导出，完成后，我们将上传导出的副本作为种子数据库。我们会将其发布在我们的公共频道上，您可以在我们的 [Arbitrum Devs Twitter](https://twitter.com/ArbitrumDevs) 上关注。
+    - 选项 1 - 我们将在迁移期间执行链状态导出，完成后，我们将上传导出的副本作为种子数据库。我们会将其(数据快照)发布在我们的公共频道上，您可以在我们的 [Arbitrum Devs Twitter](https://twitter.com/ArbitrumDevs) 上关注。
     - 选项 2 - 各个操作员可以从他们自己的 Arbitrum Classic 节点导出状态，并将其用作 Nitro 节点的种子/创世数据库。但是，除非您已经提前开始了历史导出，否则这应该只用于验证我们的创世块，因为这需要一段时间。
 
 1. 使用 `--node.rpc.nitroexport.enable` CLI 选项启动 Arbitrum Classic 节点
