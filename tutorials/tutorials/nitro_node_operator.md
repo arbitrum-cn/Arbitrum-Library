@@ -1,4 +1,4 @@
-# 在Arbitrum One迁移到Nitro过程中，对节点操作者(Node Operator)的指南
+## 在Arbitrum One迁移到Nitro过程中，对节点操作者(Node Operator)的指南
 
 _言简意赅： 当我们在8月31日进行Arbitrrum One向Nitro的迁移时，为节点操作者提供了一份快速的说明。_
 
