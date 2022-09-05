@@ -9,7 +9,7 @@
 
 我们可以在下方看到这三种节点的工作流：
 <p align="center">
-  <img src= "../pics/arch_overview.png" />
+  <img src= "../img/arch_overview.png" />
 </p>
 在上图中，我们可以把arbitrum one中的工作流分为两个部分，一个是以inbox合约为流程的，另一个是由rollup合约为流程的，而这两个部分分别对应了两种类型的链：Sequencer链和Rollup链。
 

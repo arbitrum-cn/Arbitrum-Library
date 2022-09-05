@@ -99,14 +99,14 @@ function createRetryableTicket(
 
 
 <p align="center">
-  <img width="550" height="250" src= "../pics/retryable-lifecycle.JPG" />
+  <img width="550" height="250" src= "../img/retryable-lifecycle.JPG" />
 </p>
 
 ## delayed inbox
 delayed inbox是用户在sequencer无法连接或不信任sequencer时所会用到的一种方案。在正常的l2场景中，用户将交易发送给全节点，如果此时，因为各种原因，无法通过sequencer发送交易，那么用户可选择第二种方法：直接发送至delayed inbox，如下：
 
 <p align="center">
-  <img width="480" height="200" src= "../pics/delayedInbox.png" />
+  <img width="480" height="200" src= "../img/delayedInbox.png" />
 </p>
 
 该方法原理是因为l2中所有交易都需要提取其摘要以calldata形式进入l1，因此除sequencer外，用户也可直接采取这种方式，具体调用函数为：
