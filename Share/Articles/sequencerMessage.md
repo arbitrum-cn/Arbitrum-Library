@@ -1,5 +1,5 @@
 # 详解如何从Arbitrm sequencer消息中获得交易信息
-Arbitrum中的sequencer可以定序用户交易，使得交易能瞬时确认。除此之外，sequencer还可作为其他全节点的feed器，全节点只需要链接到sequencer，并不断的舰艇feed信息，即可同步arbitrum网络中的状态。本文江从feed信息中详解full node在收取到feed信息后是如何从中提取交易信息的一些过程：
+Arbitrum中的sequencer可以定序用户交易，使得交易能瞬时确认。除此之外，sequencer还可作为其他全节点的feed器，全节点只需要链接到sequencer，并不断的舰艇feed信息，即可同步arbitrum网络中的状态。本文将从feed信息中详解full node在收取到feed信息后是如何从中提取交易信息的一些过程（目前本文仅适用于classic节点交易）：
 
 为了更好的获得sequencer的feed消息，您可以直接使用指令：
 `wscat -c wss://arb1.arbitrum.io/feed` 获得feed信息的订阅，下方是我们随便运行后得到的一组交易feed：
