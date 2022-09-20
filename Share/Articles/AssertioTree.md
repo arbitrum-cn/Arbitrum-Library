@@ -8,7 +8,9 @@ Arbitrum链的状态，通过"断言(assertions)"，又称 "可争议断言 "或
 
 然而，如果存在两个或更多相互冲突的断言，断言树就会分叉成多个分支。
 
-
+<p align="center">
+  <img width="550" height="250" src= "../img/AssertionTree.png" />
+</p>
 
 最重要的是，推进Arbitrum链的规则是具有确定性的；这意味着，一个链的既定状态和一些新的输入，只有一个有效的输出。因此，如果断言树包含一个以上的叶子(leaf)，那么最多只有一个叶子可以代表有效的链上状态；如果我们假设：至少有一个诚实的活跃验证者，那么正好有一个叶子是有效的。
 
@@ -18,14 +20,15 @@ Arbitrum链的状态，通过"断言(assertions)"，又称 "可争议断言 "或
 
 这些属性共同确保了，只要至少有一个诚实的、活跃的验证者存在，那么有效的链上状态最终将会被确认。
 
-延迟
+### 延迟
 
 即使断言树有不止一个冲突的叶子，比如说，有多个正在进行的争议，那么验证者也可以继续做出断言；诚实的验证者将简单地建立在一个有效的叶子上。同样的，用户可以继续在L2上进行交易，因为交易会继续在链上收件箱(inbox)中发布。
 
 用户在争端期间经历的唯一延迟是他们[从L2到L1的信息](https://developer.offchainlabs.com/arbos/l2-to-l1-messaging)(即 "他们的withdrawals")。请注意，"延迟攻击者"(delay attacker) 试图通过故意造成这种延迟来破坏系统，会发现这种攻击的代价相当之高，因为每获得一点延迟时间，攻击者就会失去另一份质押。
 
-详细规格
+### 详细规格
 
 关于断言树协议的更详细的分解/规范，请看[Inside Arbitrum](https://developer.offchainlabs.com/inside-arbitrum-nitro#arbitrum#rollup#protocol)。
+
 
 [原文链接](https://developer.offchainlabs.com/assertion-tree)
