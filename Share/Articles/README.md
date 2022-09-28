@@ -11,10 +11,6 @@
 2. [Inbox](./Inbox.md)
 3. [断言树](./AssertioTree.md)
 4. [L1至L2信息传递](./l1ToL2Msg.md)
-curl localhost:8545 \
-  -X POST \
-  -H "Content-Type: application/json" \
-  --data '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}'
 
 <p align="center">
   <img width="350" height="100" src= "https://arbitrum.io/wp-content/uploads/2021/01/cropped-Arbitrum_Horizontal-Logo-Full-color-White-background-scaled-1.jpg" />
