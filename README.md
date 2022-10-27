@@ -30,6 +30,9 @@
 - [Arbitrum开发者教程](arbitrum-tutorials/README.md)
 - [第三方rpc设置教程](tutorials/README.md)
 
+### 研究论坛
+我们会在这里发布一些我们对于rollup技术路线的想法，欢迎点击[此处](https://research.arbitrum.io/)查看，如果你也有想法，同样欢迎提出！
+
 
 <!-- # Arbitrum Coummunity Todo List
 除翻译计划外，我们还为社区爱好者提供了[技术](TodoList/Tech.md)以及[非技术部分](TodoList/NonTech.md)，以供各社区爱好者们参与社区贡献。
